@@ -1,0 +1,26 @@
+[
+    {
+        "title": "The Meadow - New Moon",
+        "author": "Alexandre Desplat",
+        "img": "img/piano.jpg",
+        "sound": "sounds/15-Alexandre Desplat – New Moon (The Meado).mp3"
+    },
+    {
+        "title": "I can't seem to make you mine - Lake House",
+        "author": "The Clientele",
+        "img": "img/strings.jpg",
+        "sound": "sounds/Lake House - The Clientele - I Can't Seem To Make You Mine (Soundtrack).mp3"
+    },
+    {
+        "title": "Need - New Moon",
+        "author": "Hana Pestle",
+        "img": "img/microphone.jpg",
+        "sound": "sounds/Twilight - New Moon Soundtrack - Hana pestle - Need (1).mp3"
+    },
+    {
+        "title": "La Valse Damelie",
+        "author": "Yann Tiersen",
+        "img": "img/accordion.jpg",
+        "sound": "sounds/yann_tiersen-la_valse_damelie_piano_version.mp3"
+    }
+]

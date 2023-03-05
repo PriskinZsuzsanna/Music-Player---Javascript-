@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="song-card">
+            <!--div class="img-div">
+                <img src="microphone.jpg" alt="">
+            </div>
+            <div class="text">
+                <h2>Title</h2>
+                <h3>-- Author --</h3>
+            </div-->
+        </div>
+
+        <audio id="song">
+            <source src="" id="song">
+        </audio>
+
+        <input type="range" value="0" id="progress">
+
+        <div class="buttons">
+
+           
+            <button class="jump-btn-s">
+                <i class="fa-solid fa-arrow-left" id="left"></i>
+            </button>
+            <button class="jump-btn-s">
+                <i class="fa-solid fa-backward" id="backwards"></i>
+            </button>
+            <button class="play-pause-btn">
+                <i class="fa-solid fa-play" id="ctrl-icon"></i>
+            </button >
+            <button class="jump-btn-s">
+                <i class="fa-solid fa-forward" id="forwards"></i>
+            </button>
+            <button class="jump-btn-s">
+                <i class="fa-solid fa-arrow-right" id="right"></i>
+            </button>
+            
+        </div>
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
